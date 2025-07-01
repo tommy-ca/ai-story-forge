@@ -66,7 +66,7 @@ for (let i = 1; i < args.length; i++) {
 ```javascript
 // Display parsed results
 if (args.length > 0 && args[0] !== '') {
-    console.log('【Arguments Parsed】');
+    console.log('**[Arguments Parsed]**');
     console.log(`- Scene Type: ${sceneType}${getSceneTypeDescription(sceneType)}`);
     if (character) console.log(`- Character: ${character}`);
     if (mood) console.log(`- Atmosphere: ${mood}`);
@@ -100,12 +100,12 @@ if (sceneType && sceneType !== 'general') {
 
 ### 1. Situation Setting (Setup)
 ```
-【External Elements】
+**[External Elements]**
 - Location: Specific enough for the reader to imagine
 - Time: Time of day, season, weather
 - Characters: Who is there, and what is their positioning
 
-【Internal Elements】
+**[Internal Elements]**
 - Psychological state of the point-of-view character
 - Events before this scene
 - Expectations and anxieties
@@ -135,12 +135,12 @@ Other: 10% (Tactile, olfactory, gustatory)
 ### Dialogue Scene (Parsed Arguments Version)
 ```
 User: /scene dialogue Asuka Sato tense
-Assistant: 【Arguments Parsed】
+Assistant: **[Arguments Parsed]**
 - Scene Type: dialogue (Dialogue-centered)
 - Character: Asuka Sato
 - Atmosphere: tense
 
-【Creating Dialogue Scene】
+**[Creating Dialogue Scene]**
 
 Settings:
 - Character: Asuka Sato (Librarian)
@@ -161,7 +161,7 @@ When Asuka held up the notebook, the young man's face turned red in an instant.
 
 "That's... well..."
 
-[Psychological: It seems important. But why was it mixed with the books?]
+[Psychological insight: It seems important. But why was it mixed with the books?]
 
 Continue?
 ```
@@ -169,13 +169,13 @@ Continue?
 ### Emotion Scene (With Multiple Options)
 ```
 User: /scene emotion Misaki Tanaka nostalgic 800
-Assistant: 【Arguments Parsed】
+Assistant: **[Arguments Parsed]**
 - Scene Type: emotion (Emotion-centered)
 - Character: Misaki Tanaka
 - Atmosphere: nostalgic
 - Character Count: 800 characters
 
-【Creating Emotion Scene】
+**[Creating Emotion Scene]**
 
 Settings:
 - Character: Misaki Tanaka (Bookstore owner)
@@ -193,20 +193,20 @@ A faint scent of lavender wafted from between the pages. Her mother's perfume. E
 
 Misaki hugged the book to her chest, as if searching for her mother's warmth through the hard cover.
 
-[Internal: No tears. But a quiet warmth deep inside her chest.]
+[Internal thought: No tears. But a quiet warmth deep inside her chest.]
 
-(Expand to about 800 characters, adjusting character count)
+(Expand to approximately 800 characters, adjusting character count as needed)
 ```
 
 ### Action Scene (Atmosphere Only)
 ```
 User: /scene action suspenseful
-Assistant: 【Arguments Parsed】
+Assistant: **[Arguments Parsed]**
 - Scene Type: action (Action-centered)
 - Atmosphere: suspenseful
 - Character: (Auto-generated)
 
-【Creating Action Scene】
+**[Creating Action Scene]**
 
 Atmosphere: Suspenseful
 Scene Purpose: Decision in a critical situation
@@ -225,13 +225,13 @@ A voice echoed from below. Stopping meant the end.
 
 Sho threw his entire weight against the door.
 
-[Judgment: It's now or never.]
+[Critical decision: It's now or never.]
 ```
 
 ### No Arguments Case
 ```
 User: /scene
-Assistant: 【No Arguments Specified】
+Assistant: **[No Arguments Specified]**
 
 Please select a scene type:
 1. dialogue - Dialogue-centered scene

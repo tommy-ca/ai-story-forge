@@ -49,12 +49,12 @@ Example: `first-meet Asuka Sato Taro Yamada`
 
 ### 1. Differentiate Characters
 ```
-【Asuka Sato】 (Librarian)
+**[Asuka Sato]** (Librarian)
 - Polite and modest way of speaking
 - Catchphrase: "If you'd like"
 - Becomes talkative when discussing books
 
-【Taro Yamada】 (Detective)
+**[Taro Yamada]** (Detective)
 - Concise and fact-oriented
 - Catchphrase: "...So that's it."
 - Does not show emotions openly
@@ -85,7 +85,7 @@ Core statement
 ### First Meeting Conversation
 ```
 User: /dialogue first-meet --characters Asuka Sato Taro Yamada
-Assistant: 【First Meeting Conversation Scene】
+Assistant: **[First Meeting Conversation Scene]**
 
 Location: Reference section of the city library
 Situation: Detective Yamada is looking for case materials
@@ -94,75 +94,74 @@ Situation: Detective Yamada is looking for case materials
 
 Asuka noticed a man who seemed troubled in the reference section.
 
-"Um... If you'd like, are you looking for something?"
+Asuka: "Excuse me... If you'd like, are you looking for something?"
 
 The man—in a suit, with sharp eyes—turned around.
 
-"...Books related to law."
+Man: "...Books related to law."
 
-"What kind of content? Criminal law? Civil law?"
+Asuka: "What kind of content? Criminal law? Civil law?"
 
 A moment of silence.
 
-"...Past case collections. From 20 years ago."
+Man: "...Past case collections. From 20 years ago."
 
 Asuka's expression softened.
 
-"In that case, this way. If you'd like,
-are you looking for a specific case?"
+Asuka: "In that case, this way. If you'd like, are you looking for a specific case?"
 
-"...Yeah."
+Man: "...Yeah."
 
 Yamada felt a little uncomfortable under Asuka's direct gaze.
-Are librarians always this good at seeing through people?
+(Perhaps he thought: Are librarians always this good at seeing through people?)
 
-[Goal of the conversation: Highlight personality differences while sowing seeds for a future relationship]
+[Goal of the conversation: Highlight personality differences while sowing seeds for a future relationship.]
 ```
 
 ### Conflict Conversation
 ```
 User: /dialogue conflict --characters Misaki Son --mood Tense
-Assistant: 【Conflict Conversation Scene】
+Assistant: **[Conflict Conversation Scene]**
 
 Location: Bookstore after closing
 Situation: Discussion about inheriting the bookstore
 
 ---
 
-"Are you serious about closing this store?"
+Son: "Are you serious about closing this store?"
 
 Misaki answered quietly without looking up from the sales ledger.
 
-"If there's no one to inherit it, it can't be helped."
+Misaki: "If there's no one to inherit it, it can't be helped."
 
-"What if I said I'd inherit it?"
+Son: "What if I said I'd inherit it?"
 
 The sound of a pen being placed echoed in the quiet store.
 
-"You have your own life, don't you?"
+Misaki: "You have your own life, don't you?"
 
-"You must have had a different life too, Mom, when you inherited it from Grandma."
+Son: "You must have had a different life too, Mom, when you inherited it from Grandma."
 
 Misaki looked directly at her son's face for the first time.
 He had the same eyes she had twenty years ago.
 
-"...You really won't regret it?"
+Misaki: "...You really won't regret it?"
 
-"Do you regret it, Mom?"
+Son: "Do you regret it, Mom?"
 
-[Pause: Silence to explore each other's true feelings]
+[Pause: Silence to explore each other's true feelings.]
 
-"...I don't."
+Misaki: "...I don't."
 
-"Then, me neither."
+Son: "Then, me neither."
 
-[Core of the conversation: Understanding and determination transcending generations]
+[Core of the conversation: Understanding and determination transcending generations.]
 ```
 
 ### Confession Conversation
 ```
 User: /dialogue confession --subtext --mood Poignant
-Assistant: 【Confession Conversation Scene】
+Assistant: **[Confession Conversation Scene]**
 
 Situation: A moment when unspoken feelings are conveyed indirectly
 
@@ -180,20 +179,19 @@ The sea breeze passed between them.
 
 He didn't miss the doubt in her voice.
 
-"You don't believe me?"
+Him: "You don't believe me?"
 
-"I believe you. Including the fact that when you say 'promise,'
-you're actually not confident."
+Her: "I believe you. Including the fact that when you say 'promise,' you're actually not confident."
 
 She hit the mark.
 
-"...You always see right through me, don't you?"
+Him: "...You always see right through me, don't you?"
 
-"It's my job. To observe people."
+Her: "It's my job. To observe people."
 
 They both knew it was a lie.
 
-[Truth: It's not because of work. It's because I like you that I watched.]
+[Underlying truth: It's not because of my job. It's because I care about you that I paid close attention.]
 ```
 
 ## Workspace Conversation Management

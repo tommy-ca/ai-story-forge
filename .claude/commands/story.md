@@ -68,12 +68,12 @@ Current settings:
 - Protagonist: Misaki Tanaka (45 years old, bookstore owner)
 - Theme: Reconciliation with the past and a new step forward
 
-【Detailed 3-Act Structure】
+**[Detailed 3-Act Structure]**
 
 Act 1 (Setup):
-1. Struggling bookstore, depiction of Misaki's daily life (1,000 characters)
-2. Visit from an old woman, searching for a book (800 characters)
-3. Encounter with a book of her mother's memories (700 characters)
+1. Misaki's daily life managing a struggling bookstore (approx. 1,000 characters).
+2. An old woman visits, searching for a specific book (approx. 800 characters).
+3. Misaki encounters a book connected to her mother's memories (approx. 700 characters).
 
 Shall we continue developing Act 2?
 ```
@@ -83,19 +83,19 @@ Shall we continue developing Act 2?
 User: /story scene "The Last Letter" 2
 Assistant: "The Last Letter" Scene 2: Encounter with the old woman
 
-【External Situation】
+**[External Situation]**
 Location: Near the entrance of a dimly lit bookstore
 Time: 6 PM, just before closing, already dark outside
 Weather: Light rain starting to fall
 
-【Begin Description】
+**[Begin Description]**
 As Misaki was about to close the sales ledger at the counter, the sound of the door's bell echoed in her ears.
 "I'm sorry, we're already closed..."
 Misaki's words trailed off as she turned around.
 
 An old woman leaning on a cane stood there, her rain-soaked shoulders trembling slightly.
 
-"Could I just... look for a book for a little while?"
+Old Woman: "Could I just... look for a book for a little while?"
 
 [Continue writing?]
 ```

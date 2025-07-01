@@ -96,61 +96,61 @@ Evaluation points:
 ### Scene Evaluation
 ```
 User: /quality scene "Discovery of the letter"
-Assistant: 【Scene Evaluation: Discovery of the letter】
+Assistant: **[Scene Evaluation: Discovery of the letter]**
 
 Overall Evaluation: 42/50 points
 
 1. Character Consistency: 9/10 ⭐⭐⭐⭐⭐
-   ✓ Misaki's value of "knowledge sharing" is reflected in her actions
-   ✓ Polite demeanor is consistent
-   △ Became slightly explanatory due to heightened emotions
+   ✓ Misaki's value of "knowledge sharing" is reflected in her actions.
+   ✓ Polite demeanor is consistent.
+   △ Became slightly explanatory due to heightened emotions.
 
 2. Physical Logic: 8/10 ⭐⭐⭐⭐
-   ✓ Explanation of letter's preservation state is natural
-   ✓ Timeline is clear
-   ✗ Bookstore layout is somewhat unclear
+   ✓ Explanation of letter's preservation state is natural.
+   ✓ Timeline is clear.
+   ✗ Bookstore layout is somewhat unclear.
 
 3. Psychological Naturalness: 9/10 ⭐⭐⭐⭐⭐
-   ✓ Change from surprise to acceptance is gradual
-   ✓ Portrayal conveys the weight of 20 years
-   ✓ Relationship with the old woman is natural
+   ✓ Change from surprise to acceptance is gradual.
+   ✓ Portrayal conveys the weight of 20 years.
+   ✓ Relationship with the old woman is natural.
 
 4. Readability: 7/10 ⭐⭐⭐⭐
-   ✓ Scene transitions are smooth
-   ✗ Letter content is a bit long
-   △ Tempo drops in the latter half
+   ✓ Scene transitions are smooth.
+   ✗ Letter content is a bit long.
+   △ Tempo drops in the latter half.
 
 5. Emotional Impact: 9/10 ⭐⭐⭐⭐⭐
-   ✓ Moved by the connection across time
-   ✓ Unexpected truth
-   ✓ Ending evokes hope
+   ✓ Moved by the connection across time.
+   ✓ Unexpected truth.
+   ✓ Ending evokes hope.
 
-【Improvement Suggestions】
-1. Reduce letter content by about 200 characters
-2. Add 1-2 lines describing the bookstore's space
-3. Express explanatory psychological descriptions through actions
+**[Improvement Suggestions]**
+1. Reduce letter content by about 200 characters.
+2. Add 1-2 lines describing the bookstore's space.
+3. Express explanatory psychological descriptions through actions.
 ```
 
 ### Problem Fixing
 ```
 User: /quality scene "Discovery of the letter" --fix
-Assistant: 【Problem Fix Suggestions】
+Assistant: **[Problem Fix Suggestions]**
 
 Problem 1: Explanatory psychological description
-❌ Original:
+Original:
 "Misaki felt a complex mix of surprise and nostalgia."
 
-✅ Revision:
+Revised:
 "Misaki's hand stopped. The familiar handwriting of 'To Misaki'
 spoke to her across twenty years."
 
 Problem 2: Bookstore layout is unclear
-✅ Additional description:
+Additional description:
 "Behind the counter, in front of the shelf lined with literary collections,
 the old woman held a single book."
 
 Problem 3: Letter is too long
-✅ Summary suggestion:
+Summary suggestion:
 Describe only the main points of the letter and increase Misaki's reactions.
 "Her mother's handwriting spelled out only what was important.
 'Books connect people—'
@@ -160,7 +160,7 @@ As Misaki read on, a single tear traced down her cheek."
 ### Character Evaluation
 ```
 User: /quality character Asuka Sato
-Assistant: 【Character Consistency Evaluation: Asuka Sato】
+Assistant: **[Character Consistency Evaluation: Asuka Sato]**
 
 Overall Evaluation: Excellent (45/50 points)
 
@@ -180,8 +180,8 @@ Overall Evaluation: Excellent (45/50 points)
 - Speech Style: 9/10
 - Naturalness of Growth: 9/10
 
-【Suggestion】
-Revise Chapter 5: Handle books carefully even when emotional
+**[Suggestion]**
+Revise Chapter 5: Handle books carefully even when emotional.
 ```
 
 ## Evaluation Result Management

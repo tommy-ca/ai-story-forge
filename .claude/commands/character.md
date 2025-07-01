@@ -25,17 +25,17 @@ If arguments are given, they are interpreted as follows:
 First, let's decide "what this character wants to do."
 Please choose from the list below or provide an original motivation:
 
-【Guardian/Protection Type】
+**[Guardian/Protection Type]**
 - I want to protect someone important
 - I want to protect my hometown
 - I want to help the weak
 
-【Growth/Achievement Type】
+**[Growth/Achievement Type]**
 - I want to become stronger
 - I want to be recognized
 - I want to fulfill my dream
 
-【Exploration/Discovery Type】
+**[Exploration/Discovery Type]**
 - I want to know the truth
 - I want to see the world
 - I want to solve a mystery
@@ -91,11 +91,11 @@ Assistant: Checking Asuka Sato's consistency.
 User: /character dialogue Asuka Sato
 Assistant: I will converse as Asuka Sato. Settings loaded.
 
-Hello. I'm Sato from the市立図書館 (City Library).
+Hello. I'm Sato from the City Library.
 What kind of book are you looking for today?
 If you'd like, I can help you.
 
-[Internal thought: A new visitor. I'm curious what kind of books they like.]
+[Internal thought: A new visitor. I wonder what kind of books they enjoy.]
 ```
 
 ### For No Arguments ($ARGUMENTS = "")
